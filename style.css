@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav:hover {
+    color: #a6e22e;
+    cursor: pointer;
+}
+.navb2:hover {
+    border-color: #a6e22e;
+    transition: .3s;
+}
+.greenb{
+    color: #a6e22e;
+    font-weight: 500;
+}
+.green{
+    color: #a6e22e;
+}
+a{
+    text-decoration: none;
+}
+.h100{
+    height: 89.5vh;
+}
+
+.custom-focus:focus {
+    border-color: #eee;
+}
+body{
+    scroll-behavior: smooth;
+}
+
+.text-gradient{
+    
+  background: -webkit-linear-gradient(45deg, #eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
